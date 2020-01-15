@@ -1,3 +1,10 @@
+@mixin font-bebas{
+    font-family: 'Bebas Neue', cursive;
+} 
+@mixin font-bebas{
+    font-family: 'Lobster', cursive;
+} 
+
 body,html {
     height: 100%;
 }
@@ -9,75 +16,63 @@ body {
     flex-direction: column;
 }
 
-.content {
-    flex: 1 0 auto;
-    color: salmon;
+.section-inner{
+    width: 1180px;
+    margin: 0 auto;
 }
 
-/* HEADERS */
-header{
+/* HEADER */
+
+.section-header{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: lightblue;
+    flex-direction: column;
 }
 
-.logo img{
-    width: 120px;
+.section-header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: 80px;
 }
 
-.icon img{
-    width: 30px;
-    height: 30px;
-}
-
-.main-nav{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.section-header-top-logo{
     display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-size: 49px;
+    color:#3cc3b5;
+
 }
 
-.main-nav li a{
-    color: sandybrown;
-    text-decoration: none;
-    display: block;
-    justify-content: space-around;
-}
-
-.main-nav li:not(:first-child){
-    margin-left: 20px;
-}
-
-
-/* SLAIDER */
-.slider{
+.section-header-top-imgs{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+
+.section-header-bottom{
+    display: flex;
     justify-content: center;
-    padding-top: 70px;
-    background-color: #3fc7b2;
-}
-
-.slider__titles{
-    display: flex;
-    flex-direction: column;
-    max-width:420px;
-    margin-left: 80px;
-}
-
-.titile__name{
-    font-size: 50px;
-}
-
-button{
-    width: 140px;
+    align-items: center;
+    background-color: #4ccfc1;
     height: 40px;
 }
 
-/* FOOTER */
-.footer {
-    flex-shrink: 0;
-    color: rebeccapurple;
+.section-header-bottom-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 21px;
+    color: white;
+}
+
+.section-header-bottom-nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-header-bottom-nav li:not(:first-child){
+    margin-left: 40px;
 }
