@@ -76,3 +76,45 @@ body {
 .section-header-bottom-nav li:not(:first-child){
     margin-left: 40px;
 }
+
+
+/* Slider */
+
+.section-slider-top {
+    display: flex;
+    background-color: #42c4b5;
+    height: 445px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-slider-top-wraper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-slider-top-img{
+    display: flex;
+}
+
+.section-slider-top-titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-slider-top-titles-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 61px;
+    color: white;
+}
+
+.section-slider-top-titles-des{
+    font-size: 17px;
+    color: white;
+}
+
+.section-slider-top-titles-button{
+
+}
