@@ -104,17 +104,102 @@ body {
     justify-content: center;
 }
 
-.section-slider-top-titles-title{
+.section-slider-top-titles-title {
     font-family: 'Bebas Neue', cursive;
     font-size: 61px;
     color: white;
 }
 
-.section-slider-top-titles-des{
+.section-slider-top-titles-des {
     font-size: 17px;
     color: white;
 }
 
-.section-slider-top-titles-button{
+.section-slider-top-titles-button {
+
+}
+
+
+/* Slider-botton */
+
+.section-slider-botton {
+    display: flex;
+}
+
+.section-slider-botton-boxs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-slider-botton-box {
+    display: flex;
+    align-items: center;
+}
+
+.section-slider-botton-box-titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-slider-botton-box-titles-title{
+
+}
+
+.section-slider-botton-box-titles-button{
+
+}
+
+/* Featured products */
+
+.section-featured {
+    display: flex;
+    background-color: #42c4b5;
+    height: 50px;
+    align-items: center;
+}
+
+.section-featured-products {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Products */ 
+
+.section-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-products-wraper{
+    display: flex;
+    padding-left: 20px;
+    flex-wrap: wrap;
+}
+
+.section-product {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 300px;
+}
+
+.section-product-img {
+
+}
+
+.section-product-title {
+
+}
+
+.section-product-sale {
+    display: flex;
+}
+
+.section-product-sale-price {
+
+}
+
+.section-product-sale-button {
 
 }
