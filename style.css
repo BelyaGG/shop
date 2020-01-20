@@ -83,7 +83,6 @@ body {
 .section-slider-top {
     display: flex;
     background-color: #42c4b5;
-    height: 445px;
     justify-content: center;
     align-items: center;
 }
@@ -92,31 +91,62 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    padding-top: 60px;
 }
 
 .section-slider-top-img{
     display: flex;
+
 }
 
 .section-slider-top-titles{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 410px;
+    margin-left: 100px;
 }
 
 .section-slider-top-titles-title {
     font-family: 'Bebas Neue', cursive;
     font-size: 61px;
     color: white;
+    width: 320px;
+    line-height: 51px;
 }
 
 .section-slider-top-titles-des {
     font-size: 17px;
     color: white;
+    font-family: 'Lobster', cursive;
+    padding-top: 15px;
+
 }
 
 .section-slider-top-titles-button {
+    padding-top: 15px;
+}
 
+.section-slider-top-titles-button button{
+    color: white;
+    background-color: #42c4b5;
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    width: 135px;
+    border-color: white;
+    border: 2px solid;
+}
+
+.section-slider-top-ellipse {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.section-slider-top-ellipse img:not(:first-child){
+    margin-left: 5px;
 }
 
 
@@ -134,15 +164,21 @@ body {
 .section-slider-botton-box {
     display: flex;
     align-items: center;
+    width: 340px;
 }
 
 .section-slider-botton-box-titles {
     display: flex;
     flex-direction: column;
+    width: 80px;
+    padding-left: 20px;
 }
 
-.section-slider-botton-box-titles-title{
 
+.section-slider-botton-box-titles-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    color: #afafaf;
 }
 
 .section-slider-botton-box-titles-button{
@@ -154,13 +190,19 @@ body {
 .section-featured {
     display: flex;
     background-color: #42c4b5;
-    height: 50px;
+    height: 70px;
     align-items: center;
 }
 
 .section-featured-products {
     display: flex;
     justify-content: flex-start;
+    height: 70px;
+    align-items: center;
+    padding-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 31px;
+    color: white;
 }
 
 /* Products */ 
@@ -175,13 +217,21 @@ body {
     display: flex;
     padding-left: 20px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-product {
     display: flex;
     flex-direction: column;
-    height: 350px;
-    width: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    width: 250px;
+    border: 2px solid gainsboro;
+    border-bottom: 5px solid green;
+    margin-left: 50px;
+    margin-top: 45px;
 }
 
 .section-product-img {
@@ -201,5 +251,25 @@ body {
 }
 
 .section-product-sale-button {
+
+}
+
+/* Footer */
+
+.section-footer {
+    background-color: #3cc3b5;
+    margin-top: 45px;
+}
+
+.section-footer-wraper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-footer-column{
+
+}
+
+.section-footer-column-title {
 
 }
