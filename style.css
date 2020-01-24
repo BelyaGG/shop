@@ -15,7 +15,8 @@ body {
 }
 
 .section-inner {
-    max-width: 1200px;
+    max-width: 1200px; 
+    min-width: 65%;
     margin: 0 auto;
 }
 
@@ -62,6 +63,7 @@ body {
 }
 
 
+
 .section-header-bottom{
     display: flex;
     justify-content: center;
@@ -89,9 +91,44 @@ body {
     margin-left: 40px;
 }
 
-@media srceen {
+@media (max-width: 512px) {
+    .section-header-bottom {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
+    .section-header-bottom-nav {
+        text-align: center;
+    }
 }
+
+@media (max-width: 446px) {
+    .section-header-bottom-nav {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-top-img-profile {
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    .section-top-img-basket {
+        width: 50%;
+    }
+
+    .section-slider-top-img img{
+        width: 60%;
+    }
+
+    .section-slider-top-titles-title {
+        font-size: 20px;
+    }
+}
+
+
 
 /* SLIDER-TOP */
 
@@ -163,6 +200,75 @@ body {
 .section-slider-top-ellipse img:not(:first-child){
     margin-left: 5px;
 }
+
+@media (max-width: 812px) {
+    .section-slider-top-wraper {
+        flex-direction: column;
+    } 
+
+    .section-slider-top-img {
+        align-items: center;
+        padding-left: 80px;
+    }
+
+    .section-slider-top-titles {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .section-slider-top-titles-title {        
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-slider-top-titles-des {
+        display: none;
+    }
+
+
+    .section-slider-top-titles-button {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .section-slider-top-ellipse {
+        padding-left: 70px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 512px) {
+    .section-slider-top-titles {
+        width: 300px;
+    }
+
+    .section-slider-top-titles-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-slider-top-img img{
+        padding-left: 50px;
+        width: 60%;
+    }
+
+    .section-slider-top-titles-title {
+        font-size: 20px;
+        /* width: 150px; */
+        line-height: 15px;
+    }
+
+    .section-slider-top-titles-button {
+        /* width: 150px; */
+    }
+
+    .section-slider-top-titles {
+        width: 150px;
+    }
+}
+
 
 /* SLIDER-BOTTOM */
 
@@ -357,3 +463,10 @@ body {
     font-size: 12px;
     height: 50px;
 }
+
+@media (max-width: 446px) {
+    .section-footer-top-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
